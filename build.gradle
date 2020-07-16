@@ -1,7 +1,6 @@
 buildscript {
   repositories {
     jcenter()
-
     // enable this to use snapshot versions of Gretty:
     // maven { url 'http://oss.jfrog.org/artifactory/oss-snapshot-local' }
   }
@@ -31,20 +30,12 @@ repositories {
 
 dependencies {
       testCompile group: 'junit', name: 'junit', version: '4.12'
-      //compile name: 'myfaces-jsf-api-1.0.9'
-      //providedCompile group: 'javax.faces', name: 'javax.faces-api', version: '2.2'
-      //compile 'com.sun.faces:jsf-api:2.2.8'  
-      //compile 'com.sun.faces:jsf-impl:2.2.8'  
-      //compile 'javax.servlet:jstl:1.2' 
-   		//compile name: 'jsf-api-2.2.14'
    		   compile name:'myfaces-api-2.0.2'
-    		 compile name: 'myfaces-impl-2.0.2'
+    	   compile name: 'myfaces-impl-2.0.2'
     		 compile name: 'commons-digester-1.8'
     		 compile name:'commons-collections-3.2'
     		 compile name: 'commons-logging-1.1.1'
     		 compile name: 'commons-beanutils-1.8.3'
     		 compile name: 'commons-discovery-0.4'
-      //compile name: 'tomahawk20-1.1.14'
-   // compile name: 'odc-jsf'
 
 }
